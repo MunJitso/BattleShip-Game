@@ -3,12 +3,11 @@ import java.util.List;
 
 public class Battleship {
     public static void main(String[] args) {
-        int boardSize = 10;
         List<String> sizes = new ArrayList<>();
         for (int i = 0; i < Board.getSizes.length; i++){
             sizes.add(String.valueOf(Board.getSizes[i]));
         }
-        Board board = new Board(boardSize);
+        Board board = new Board();
         Player player = new Player();
         board.showBoard();
         player.playerInput();
