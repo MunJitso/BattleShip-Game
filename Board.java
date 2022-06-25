@@ -4,12 +4,8 @@ import java.util.concurrent.ThreadLocalRandom;
 
 @SuppressWarnings("ALL")
 public class Board {
-    private int boardSize;
     public static int[] getSizes = new int[]{5,4,3,3,2};
     private static String[][] coordsX = new String[10][11];
-    public Board(int boardSize) {
-        this.boardSize = boardSize;
-    }
 
     // Maker of the Board.
     private static String[][] initialBoard(){
