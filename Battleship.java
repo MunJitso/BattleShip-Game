@@ -3,6 +3,7 @@ import java.util.List;
 
 public class Battleship {
     public static void main(String[] args) {
+        final String ANSI_BLUE = "\u001B[34m";
         List<String> sizes = new ArrayList<>();
         for (int i = 0; i < Board.getSizes.length; i++){
             sizes.add(String.valueOf(Board.getSizes[i]));
@@ -17,7 +18,7 @@ public class Battleship {
                     board.showBoard();
                     player.playerInput();
                 } else if (x == 9 && y == 9 && !sizes.contains(Board.boardWithShips[x][y])){
-                    System.out.println("YaaY you won!");
+                    System.out.println(ANSI_BLUE + "YAAY!! You won!");
                 }
             }
         }
