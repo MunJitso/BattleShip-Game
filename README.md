@@ -1,5 +1,3 @@
 # BattleShip-Game
 
-This game is made by me of course using... it's Obvious, Java.. anyway It's my first Java project, so expect a loot of errors and bugs and poor code, but I will try my best to improve my code. Anyway...
-
-You start the game, you find some ships, and you have to sank them all, you have to hate them, show them your negative feelings, be DESTRUCTIVE.. ehem ehem... You have to sank all the ships so you can win the game.. that's it.
+I developed this game using Java, and it's my first Java project. While there may be some errors, bugs, and poor coding, I'm committed to improving it. The objective of the game is to destroy all the ships and emerge victorious. So, unleash your destructive side and show those ships who's boss!
